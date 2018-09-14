@@ -6,5 +6,4 @@ legacy
 *.swp
 yarn-error.log
 dist
-native
 
