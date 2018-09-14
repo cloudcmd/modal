@@ -2,10 +2,10 @@
   "name": "@cloudcmd/modal",
   "version": "1.0.0",
   "description": "lightbox library for displaying modals with api similar to FancyBox v2",
-  "homepage": "http://github.com/coderaiser/modal",
+  "homepage": "http://github.com/cloudcmd/modal",
   "repository": {
     "type": "git",
-    "url": "git://github.com/coderaiser/modal.git"
+    "url": "git://github.com/cloudcmd/modal.git"
   },
   "main": "legacy/modal.js",
   "scripts": {
@@ -40,7 +40,7 @@
   "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coderaiser/modal/issues"
+    "url": "https://github.com/cloudcmd/modal/issues"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
