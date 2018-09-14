@@ -16,7 +16,7 @@ I used `fancybox` for a long time but there is a couple things I don't like abou
 
 - has not tests
 - uses jquery
-- big (`30kb` of `jquery` + `13kb` = `43kb` agains `23kb` of `modal`)
+- big (`30kb` of `jquery` + `13kb` = `43kb` against `23kb` of `modal`)
 - slow
 - does not support `common.js`, `esm` etc
 - license not compatible with `MIT`
