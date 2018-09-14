@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 77 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="path-1" cx="29.5" cy="29.5" r="29.5"></circle>
+        <filter x="-26.3%" y="-21.2%" width="149.2%" height="149.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-1" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Close" transform="translate(10.000000, 7.000000)">
+            <g id="Oval" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <circle id="Oval-Copy" fill="#222222" fill-rule="nonzero" cx="29.5" cy="29.5" r="23.5"></circle>
+            <path d="M29.8156745,26.1936029 L23.3249223,19.7028507 C22.9367486,19.314677 22.3132558,19.3140612 21.9236998,19.7102342 L19.6983718,21.9733609 C19.3126717,22.3656124 19.3170206,23.0006156 19.7129875,23.3965825 L26.1628411,29.8464362 L19.7424459,36.2668315 C19.3504723,36.6588051 19.3376902,37.2944642 19.7224018,37.6954816 L21.9200556,39.9862824 C22.3009592,40.3833305 22.9193724,40.3955716 23.3137978,40.0011462 L29.8156745,33.4992695 L36.3308785,40.0144735 C36.7205145,40.4041096 37.3485128,40.4092308 37.7422569,40.0172459 L39.9915091,37.7780435 C40.3813558,37.3899386 40.386773,36.7647014 39.9910914,36.3690198 L33.4685078,29.8464362 L39.8970371,23.4179069 C40.2895073,23.0254367 40.2958125,22.3962545 39.9024229,22.0039151 L37.6551956,19.7626877 C37.2656999,19.3742319 36.6341948,19.3750825 36.239807,19.7694703 L29.8156745,26.1936029 Z" id="close" fill-opacity="0.899999976" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

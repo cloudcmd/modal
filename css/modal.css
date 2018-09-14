@@ -1,0 +1,117 @@
+.modal-main {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.modal-child {
+    height: calc(100% - 40px);
+    background: #f9f9f9;
+    margin: 20px;
+    z-index: 10;
+    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .5);
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: -16px;
+    right: -16px;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    z-index: 1234567890;
+    background-image: url(../img/close.svg);
+}
+
+.modal-autosize {
+    align-items: center;
+    justify-content: center;
+    min-height: min-content;
+}
+
+.modal-autosize .modal-child {
+    height: auto;
+}
+
+.modal-is-title {
+    height: calc(100% - 40px);
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: calc(100vh - 60px);
+    display: block;
+}
+
+.modal-nav {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    background: transparent;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.modal-nav-left {
+    left: 0;
+}
+
+.modal-nav-right {
+    right: 0;
+}
+
+.modal-nav span {
+    position: absolute;
+    top: 50%;
+    width: 36px;
+    height: 36px;
+    margin-top: -18px;
+    cursor: pointer;
+    z-index: 123456789;
+    visibility: hidden;
+}
+
+.modal-nav-left span {
+    left: 10px;
+    background-image: url(../img/left.svg);
+}
+
+.modal-nav-right span {
+    right: 10px;
+    background-image: url(../img/right.svg);
+}
+
+.modal-nav:hover span {
+    visibility: visible;
+}
+
+.modal-title {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    margin-bottom: -35px;
+    z-index: 8050;
+    text-align: center;
+}
+
+.modal-title-text {
+    display: inline-block;
+    font-size: 13px;
+    margin-right: -100%;
+    padding: 2px 20px;
+    background: rgba(0, 0, 0, .8);
+    text-shadow: 0 1px 2px #222;
+    color: #fff;
+    font-weight: 700;
+    line-height: 24px;
+    white-space: nowrap;
+}

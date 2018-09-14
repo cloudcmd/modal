@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 77 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="path-1" cx="29.5" cy="29.5" r="29.5"></circle>
+        <filter x="-26.3%" y="-21.2%" width="149.2%" height="149.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="-1" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-Right" transform="translate(37.500000, 36.500000) scale(-1, 1) translate(-37.500000, -36.500000) translate(8.000000, 7.000000)">
+            <g id="Oval" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <circle id="Oval-Copy" fill="#222222" fill-rule="nonzero" cx="29.5" cy="29.5" r="23.5"></circle>
+            <path d="M20.7517213,29.2081783 C20.3365571,29.6209039 20.3331761,30.286703 20.7399929,30.6911302 L30.8087313,40.7007248 C31.217418,41.107011 31.8802419,41.108273 32.2984354,40.6943935 L34.6873541,38.3301183 C35.1014082,37.9203355 35.1071618,37.2601752 34.6869105,36.8423924 L27.7593094,29.955484 L34.6009282,23.1540529 C35.0100852,22.7472993 35.0105531,22.0891657 34.5927361,21.6749119 L32.2059681,19.3084987 C31.7922868,18.8983453 31.1264038,18.8944367 30.7052105,19.3131559 L20.7517213,29.2081783 Z" id="close" fill-opacity="0.899999976" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Image Example</title>
+    </head>
+    <body>
+        <script src="../dist/modal.min.js"></script>
+        <script>
+            const img = {
+                href: 'cloudcmd.png',
+                title: 'Cloud Commander',
+            };
+            
+            modal.open([img], {
+                autoSize: true
+            });
+            
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape')
+                    modal.close();
+            });
+        </script>
+    </body>
+</html>
