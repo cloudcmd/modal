@@ -59,10 +59,10 @@ Using build file:
   // usage with title and hooks
   modal.open(el, {
     title: 'hello world',
-    beforeOpen: () => console.log('before open');
-    afterOpen: () => console.log('after open');
-    beforeClose: () => console.log('before close');
-    afterClose: () => console.log('after close');
+    beforeOpen: () => console.log('before open'),
+    afterOpen: () => console.log('after open'),
+    beforeClose: () => console.log('before close'),
+    afterClose: () => console.log('after close'),
     helpers: {
       title: true,
     }
