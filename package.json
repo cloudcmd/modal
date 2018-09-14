@@ -1,6 +1,6 @@
 {
   "name": "@cloudcmd/modal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lightbox library for displaying modals with api similar to FancyBox v2",
   "homepage": "http://github.com/cloudcmd/modal",
   "repository": {
