@@ -1,3 +1,9 @@
+2018.09.18, v1.1.0
+
+feature:
+- (modal) move out create-lement to @cloudcmd/create-element
+
+
 2018.09.14, v1.0.1
 
 fix:
