@@ -47,6 +47,7 @@
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@cloudcmd/stub": "^2.0.0",
+    "auto-globals": "^1.0.0",
     "autoprefixer": "^9.1.0",
     "babel-loader": "^8.0.0",
     "clean-css-loader": "^1.0.1",
