@@ -1,3 +1,16 @@
+2019.03.21, v1.1.2
+
+feature:
+- (package) css-loader v2.1.1
+- (modal) redrun -> madrun
+- (package) add auto-globals
+- (modal) sinon, sinon-called-with-diff -> @cloudcmd/stub
+- (modal) sinon, sinon-called-with-diff -> @cloudcmd/stub
+- (package) sinon-called-with-diff v3.0.0
+- (package) sinon v7.1.1
+- (test) rm unused
+
+
 2018.10.10, v1.1.1
 
 feature:
