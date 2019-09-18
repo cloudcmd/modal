@@ -42,10 +42,6 @@ import modal from '@cloudcmd/modal';
 
 Using build file:
 
-```html
-<script src="./node_modules/@cloudcmd/modal/dist/modal.min.js"></script>
-```
-
 ## open(el[, options])
 
 ```js

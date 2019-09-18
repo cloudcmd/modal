@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git://github.com/cloudcmd/modal.git"
   },
-  "main": "legacy/modal.js",
+  "main": "lib/modal.js",
   "scripts": {
     "watch": "madrun watch",
     "watch:client": "madrun watch:client",
@@ -17,13 +17,6 @@
     "watch:coverage": "madrun watch:coverage",
     "coverage": "madrun coverage",
     "report": "madrun report",
-    "compile:server": "madrun compile:server",
-    "compile:client": "madrun compile:client",
-    "build": "madrun build",
-    "build:js": "madrun build:js",
-    "legacy:index": "madrun legacy:index",
-    "clean": "madrun clean",
-    "wisdom": "madrun wisdom",
     "lint:css": "madrun lint:css",
     "lint:js": "madrun lint:js",
     "lint": "madrun lint",
@@ -70,13 +63,13 @@
     "supertape": "^1.2.3",
     "url-loader": "^2.1.0",
     "webpack": "^4.1.0",
-    "webpack-cli": "^3.0.8",
-    "wraptile": "^3.0.0"
+    "webpack-cli": "^3.0.8"
   },
   "dependencies": {
     "@cloudcmd/create-element": "^1.0.0",
     "currify": "^3.0.0",
-    "fullstore": "^2.0.2"
+    "fullstore": "^2.0.2",
+    "wraptile": "^3.0.0"
   },
   "publishConfig": {
     "access": "public"
