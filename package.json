@@ -67,7 +67,7 @@
   },
   "dependencies": {
     "@cloudcmd/create-element": "^2.0.0",
-    "currify": "^3.0.0",
+    "currify": "^4.0.0",
     "fullstore": "^2.0.2",
     "wraptile": "^3.0.0"
   },
