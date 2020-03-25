@@ -55,7 +55,7 @@
     "mock-require": "^3.0.2",
     "nodemon": "^1.9.2",
     "nyc": "^14.1.1",
-    "putout": "^6.0.0",
+    "putout": "^7.20.2",
     "rimraf": "^3.0.0",
     "style-loader": "^1.0.0",
     "stylelint": "^11.0.0",
