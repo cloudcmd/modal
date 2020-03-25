@@ -58,7 +58,7 @@
     "putout": "^7.20.2",
     "rimraf": "^3.0.0",
     "style-loader": "^1.0.0",
-    "stylelint": "^11.0.0",
+    "stylelint": "^13.2.1",
     "stylelint-config-standard": "^19.0.0",
     "supertape": "^1.2.3",
     "url-loader": "^2.1.0",
