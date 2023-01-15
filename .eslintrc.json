@@ -3,11 +3,11 @@
         "browser": true
     },
     "extends": [
-        "plugin:putout/recommended",
-        "plugin:node/recommended"
+        "plugin:n/recommended",
+        "plugin:putout/recommended"
     ],
     "plugins": [
-        "node",
+        "n",
         "putout"
     ]
 }

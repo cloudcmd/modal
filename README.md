@@ -1,4 +1,13 @@
-# Modal [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Dependency Status][DependencyStatusIMGURL]][DependencyStatusURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage][CoverageIMGURL]][CoverageURL]
+# Modal [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage][CoverageIMGURL]][CoverageURL]
+
+[NPMIMGURL]: https://img.shields.io/npm/v/@cloudcmd/modal.svg?style=flat&longCache=true
+[BuildStatusURL]: https://github.com/cloudcmd/modal/actions?query=workflow%3A%22Node+CI%22 "Build Status"
+[BuildStatusIMGURL]: https://github.com/cloudcmd/modal/workflows/Node%20CI/badge.svg
+[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat&longCache=true
+[NPMURL]: https://npmjs.org/package/@cloudcmd/modal "npm"
+[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
+[CoverageURL]: https://coveralls.io/github/cloudcmd/modal?branch=master
+[CoverageIMGURL]: https://coveralls.io/repos/cloudcmd/modal/badge.svg?branch=master&service=github
 
 Lightbox library for displaying modals with api similar to [FancyBox v2](http://fancyapps.com/fancybox/).
 
@@ -45,40 +54,40 @@ Using build file:
 ## open(el[, options])
 
 ```js
-  const el = document.createElement('div');
-  el.textContent = 'hello';
-  
-  // simplest possible modal open using existing html element
-  modal.open(el);
-  modal.close();
-  
-  // usage with title and hooks
-  modal.open(el, {
+const el = document.createElement('div');
+el.textContent = 'hello';
+
+// simplest possible modal open using existing html element
+modal.open(el);
+modal.close();
+
+// usage with title and hooks
+modal.open(el, {
     title: 'hello world',
     beforeOpen: () => console.log('before open'),
     afterOpen: () => console.log('after open'),
     beforeClose: () => console.log('before close'),
     afterClose: () => console.log('after close'),
     helpers: {
-      title: true,
-    }
-  });
+        title: true,
+    },
+});
 ```
 
 ## open(images[, options])
 
 ```js
-  const image = {
+const image = {
     title: 'hello',
     href: 'cloudcmd.png',
-  };
-  
-  modal.open([image], {
+};
+
+modal.open([image], {
     autoSize: true,
     helpers: {
-      title: true,
-    }
-  })
+        title: true,
+    },
+});
 ```
 
 ## close
@@ -90,18 +99,6 @@ modal.close();
 ```
 
 # License
+
 MIT
-
-[NPMIMGURL]:                https://img.shields.io/npm/v/@cloudcmd/modal.svg?style=flat&longCache=true
-[BuildStatusIMGURL]:        https://img.shields.io/travis/cloudcmd/modal/master.svg?style=flat&longCache=true
-[DependencyStatusIMGURL]:   https://img.shields.io/david/cloudcmd/modal.svg?style=flat&longCache=true
-[LicenseIMGURL]:            https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat&longCache=true
-
-[NPMURL]:                   https://npmjs.org/package/@cloudcmd/modal "npm"
-[BuildStatusURL]:           https://travis-ci.org/cloudcmd/modal  "Build Status"
-[DependencyStatusURL]:      https://david-dm.org/cloudcmd/modal "Dependency Status"
-[LicenseURL]:               https://tldrlegal.com/license/mit-license "MIT License"
-
-[CoverageURL]:              https://coveralls.io/github/cloudcmd/modal?branch=master
-[CoverageIMGURL]:           https://coveralls.io/repos/cloudcmd/modal/badge.svg?branch=master&service=github
 

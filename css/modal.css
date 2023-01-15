@@ -14,8 +14,8 @@
     background: #f9f9f9;
     margin: 20px;
     z-index: 10;
-    -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, .5);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 10px 25px rgb(0 0 0 / 50%);
+    box-shadow: 0 10px 25px rgb(0 0 0 / 50%);
     position: relative;
 }
 
@@ -58,7 +58,7 @@
     cursor: pointer;
     text-decoration: none;
     background: transparent;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
 }
 
 .modal-nav-left {
@@ -108,7 +108,7 @@
     font-size: 13px;
     margin-right: -100%;
     padding: 2px 20px;
-    background: rgba(0, 0, 0, .8);
+    background: rgb(0 0 0 / 80%);
     text-shadow: 0 1px 2px #222;
     color: #fff;
     font-weight: 700;
