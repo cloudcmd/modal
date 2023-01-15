@@ -3,6 +3,7 @@
   "version": "2.0.3",
   "description": "lightbox library for displaying modals with api similar to FancyBox v2",
   "homepage": "http://github.com/cloudcmd/modal",
+  "commitType": "colon",
   "repository": {
     "type": "git",
     "url": "git://github.com/cloudcmd/modal.git"
