@@ -1,3 +1,20 @@
+2023.01.15, v3.0.0
+
+feature:
+- package: auto-globals v3.0.0
+- package: eslint-plugin-n v15.6.1
+- package: stylelint-config-standard v29.0.0
+- package: @cloudcmd/stub v4.0.1
+- package: rimraf v4.0.5
+- package: supertape v8.2.0
+- package: c8 v7.12.0
+- package: madrun v9.0.7
+- package: stylelint v14.16.1
+- package: eslint-plugin-putout v16.3.0
+- package: putout v28.5.0
+- package: eslint v8.32.0
+- modal: close: add stopPropagation of event
+
 2020.03.25, v2.0.3
 
 feature:
