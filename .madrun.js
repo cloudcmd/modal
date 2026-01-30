@@ -17,7 +17,7 @@ export default {
     'fix:lint': async () => await run('lint', '--fix'),
     'test': () => [env, `tape 'lib/**/*.spec.js'`],
     'test:update': async () => [
-        await cutEnv('redrun test'),{
+        await cutEnv('redrun test'), {
             ...env,
             UPDATE_FIXTURE: 1,
         }],
