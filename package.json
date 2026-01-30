@@ -66,7 +66,7 @@
     "try-catch": "^4.0.9",
     "url-loader": "^4.0.0",
     "webpack": "^5.104.1",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^6.0.1"
   },
   "dependencies": {
     "@cloudcmd/create-element": "^2.0.0",
