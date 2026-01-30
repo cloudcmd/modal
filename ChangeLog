@@ -1,3 +1,30 @@
+2026.01.30, v4.0.0
+
+feature:
+- 0339336 @cloudcmd/modal: migrate to ESM
+- 8feb041 @cloudcmd/modal: webpack-cli v6.0.1
+- 2b05f7b @cloudcmd/modal: webpack v5.104.1
+- 6c58113 @cloudcmd/modal: try-catch v4.0.9
+- 7b54b65 @cloudcmd/modal: supertape v12.0.12
+- 3248c2d @cloudcmd/modal: stylelint-config-standard v40.0.0
+- f45e29a @cloudcmd/modal: stylelint v17.1.0
+- 0f6fc80 @cloudcmd/modal: style-loader v4.0.0
+- 0a75c09 @cloudcmd/modal: rimraf v6.1.2
+- 8873c6d @cloudcmd/modal: putout v41.15.0
+- 66e3c8e @cloudcmd/modal: nodemon v3.1.11
+- 2de899e @cloudcmd/modal: madrun v12.1.3
+- f713c24 @cloudcmd/modal: eslint-plugin-putout v30.0.1
+- 73b9b0b @cloudcmd/modal: eslint-plugin-n v17.23.2
+- 653e91b @cloudcmd/modal: eslint v9.39.2
+- 79e4477 @cloudcmd/modal: css-loader v7.1.3
+- d8e94e0 @cloudcmd/modal: clean-css-loader v4.2.1
+- ec8e601 @cloudcmd/modal: c8 v10.1.3
+- 106d181 @cloudcmd/modal: babel-loader v10.0.0
+- 563def0 @cloudcmd/modal: autoprefixer v10.4.23
+- 9b3af5b @cloudcmd/modal: auto-globals v4.0.1
+- 6507211 @cloudcmd/modal: @cloudcmd/stub v5.0.0
+- bed9c73 @cloudcmd/modal: fullstore v4.0.0
+
 2023.01.15, v3.0.2
 
 feature:
