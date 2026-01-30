@@ -58,7 +58,7 @@
     "mock-require": "^3.0.2",
     "nodemon": "^3.1.11",
     "putout": "^41.15.0",
-    "rimraf": "^4.0.5",
+    "rimraf": "^6.1.2",
     "style-loader": "^1.0.0",
     "stylelint": "^14.16.1",
     "stylelint-config-standard": "^29.0.0",
