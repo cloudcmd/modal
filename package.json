@@ -65,7 +65,7 @@
     "supertape": "^12.0.12",
     "try-catch": "^4.0.9",
     "url-loader": "^4.0.0",
-    "webpack": "^4.1.0",
+    "webpack": "^5.104.1",
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
