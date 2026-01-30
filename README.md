@@ -55,12 +55,11 @@ Using build file:
 
 ```js
 const el = document.createElement('div');
-el.textContent = 'hello';
 
+el.textContent = 'hello';
 // simplest possible modal open using existing html element
 modal.open(el);
 modal.close();
-
 // usage with title and hooks
 modal.open(el, {
     title: 'hello world',
@@ -101,4 +100,3 @@ modal.close();
 # License
 
 MIT
-

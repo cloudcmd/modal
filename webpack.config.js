@@ -1,6 +1,8 @@
-'use strict';
+import path, {dirname} from 'node:path';
+import {fileURLToPath} from 'node:url';
 
-const path = require('node:path');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 const dir = './lib';
 
 const dist = path.resolve(__dirname, 'dist');
@@ -30,7 +32,7 @@ const rules = [{
 
 const filename = `[name].min.js`;
 
-module.exports = {
+export default {
     devtool,
     entry: {
         modal: `${dir}/modal.js`,
