@@ -1,6 +1,6 @@
 'use strict';
 
-const path = require('path');
+const path = require('node:path');
 const dir = './lib';
 
 const dist = path.resolve(__dirname, 'dist');
@@ -12,7 +12,11 @@ const rules = [{
     loader: 'babel-loader',
 }, {
     test: /\.css$/,
-    use: ['style-loader', 'css-loader', 'clean-css-loader'],
+    use: [
+        'style-loader',
+        'css-loader',
+        'clean-css-loader',
+    ],
 }, {
     test: /\.(png|gif|svg|woff|woff2|eot|ttf)$/,
     use: [{
@@ -48,4 +52,3 @@ function devtoolModuleFilenameTemplate(info) {
     const resource = info.absoluteResourcePath.replace(__dirname + path.sep, '');
     return `file://modal.js/${resource}`;
 }
-

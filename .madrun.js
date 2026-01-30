@@ -11,11 +11,8 @@ module.exports = {
     'watch:coverage': () => run('watch', 'redrun coverage'),
     'coverage': () => 'c8 npm test',
     'report': () => 'c8 report --reporter=text-lcov | coveralls',
-    'lint:css': () => 'stylelint css/*.css',
-    'lint:js': () => 'putout lib .madrun.js webpack.config.js',
-    'lint': () => run('lint:*'),
-    'fix:lint': async () => await run(['lint:js', 'lint:css'], '--fix'),
+    'lint': () => 'putout .',
+    'fix:lint': async () => await run('lint', '--fix'),
     'test': () => `tape 'lib/**/*.spec.js'`,
     'test:update': () => 'UPDATE_FIXTURE=1 redrun test',
 };
-

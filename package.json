@@ -4,10 +4,9 @@
   "type": "commonjs",
   "description": "lightbox library for displaying modals with api similar to FancyBox v2",
   "homepage": "http://github.com/cloudcmd/modal",
-  "commitType": "colon",
   "repository": {
     "type": "git",
-    "url": "git://github.com/cloudcmd/modal.git"
+    "url": "git+https://github.com/cloudcmd/modal.git"
   },
   "main": "lib/modal.js",
   "scripts": {
@@ -19,8 +18,6 @@
     "watch:coverage": "madrun watch:coverage",
     "coverage": "madrun coverage",
     "report": "madrun report",
-    "lint:css": "madrun lint:css",
-    "lint:js": "madrun lint:js",
     "lint": "madrun lint",
     "fix:lint": "madrun fix:lint",
     "test": "madrun test",
@@ -42,7 +39,6 @@
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
-    "@cloudcmd/stub": "^5.0.0",
     "auto-globals": "^4.0.1",
     "autoprefixer": "^10.4.23",
     "babel-loader": "^10.0.0",
