@@ -1,13 +1,15 @@
-webpack.config.js
-example
-screen
-.*
-yarn-error.log
-
 *.spec.js
-.spec
 *.sketch
+*.config.*
+*.log
+*.loc
+
+.*
+.spec
+
+webpack.config.js
 madrun.js
 
+example
+screen
 coverage
-*.config.*
