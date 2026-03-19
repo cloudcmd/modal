@@ -1,3 +1,12 @@
+2026.03.19, v4.0.1
+
+feature:
+- d9faa08 @cloudcmd/modal: putout v42.2.3
+- 390d48e @cloudcmd/modal: madrun v13.0.1
+- ebb776e @cloudcmd/modal: eslint-plugin-putout v31.1.1
+- 835f3fc @cloudcmd/modal: eslint v10.0.3
+- a2a816f @cloudcmd/modal: superc8 v12.3.1
+
 2026.01.30, v4.0.0
 
 feature:
