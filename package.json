@@ -39,7 +39,7 @@
     "auto-globals": "^4.0.1",
     "clean-css-loader": "^4.2.1",
     "css-modules-require-hook": "^4.2.3",
-    "eslint": "^9.39.2",
+    "eslint": "^10.0.3",
     "eslint-plugin-n": "^17.23.2",
     "eslint-plugin-putout": "^30.0.1",
     "madrun": "^12.1.3",
