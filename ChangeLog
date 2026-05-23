@@ -1,3 +1,10 @@
+2026.05.23, v4.1.0
+
+feature:
+- 6ad4b05 @cloudcmd/modal: click -> mousedown
+- 60621b0 @cloudcmd/modal: @supertape/loader-css v1.0.0
+- bdaa97e @cloudcmd/modal: supertape v13.2.0
+
 2026.03.19, v4.0.1
 
 feature:
