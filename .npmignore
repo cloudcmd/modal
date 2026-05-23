@@ -2,7 +2,7 @@
 *.sketch
 *.config.*
 *.log
-*.loc
+*.lock
 
 .*
 .spec
