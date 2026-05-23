@@ -36,6 +36,7 @@
     "url": "https://github.com/cloudcmd/modal/issues"
   },
   "devDependencies": {
+    "@supertape/loader-css": "^1.0.0",
     "auto-globals": "^4.0.1",
     "clean-css-loader": "^4.2.1",
     "css-modules-require-hook": "^4.2.3",

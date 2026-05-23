@@ -1,8 +1,9 @@
 import {run, cutEnv} from 'madrun';
+import {defineEnv} from 'supertape/env';
 
-const env = {
-    NODE_OPTIONS: '"--import supertape/css"',
-};
+const env = defineEnv({
+    css: true,
+});
 
 export default {
     'watch': () => 'nodemon --watch lib --exec',
